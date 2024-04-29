@@ -8,6 +8,15 @@ This plugin provides three very simple operations:
 2) Export all the **loaded objs** to a folder
 3) Purge the objs from blender and remove the orphaned data
 
+The right click context in the 3D viewport will show the options
+
+![Right click menu in blender](./readmepngs/right-click-context.png)
+
+When loaded the start and end frames match the length of obj sequence, and you'll see the loaded
+and currently visible frames on the right hand View Layer pane.
+
+![Loaded objs](./readmepngs/loaded-mesh.png)
+
 ## Import a sequence
 
 Select an obj from a folder. The plugin will detect all the frames, load the current frame (zero indexed) and then setup
